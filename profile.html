@@ -6,15 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-    .profile   { color: brown;
-            box-sizing: 100px;
-            background-color: plum;
 
+  ul { list-style-type: none;
         }
 
-        ul { list-style-type: none;
+ .flex-container {
+  display: flex;
+  flex-direction: row;
+  background-color: gray;
+}
 
-        }
+ .flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;}
     </style>
 
     
@@ -22,13 +28,25 @@
 <body>
 <header>
 <ul> 
-   <div class="ul">
-   <li> <h1>About</h1> </li>
-   <li> <h1>Shop</h1> </li>
-   <li> <h1>Contact</h1> </li>
-
-   </div>
+<div class="flex-container">
+    <div class="ul">
+    <li><h1>About</h1></li>
+    <li><h1>Shop</h1></li>
+    <li><h1>Contact</h1></li>
+    </div>
+</div>
 </ul>
 </header>
+<hr/>
+<main>
+
+
+<p>We sell high quality clothing from Lagos</p>
+<img src="./assets/img/clothingrack.jpg" width="400px" height="auto">
+
+
+
+
+</main>
 </body>
 </html>
